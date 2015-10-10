@@ -1,12 +1,11 @@
-# SametSisartenep's public key
+## SametSisartenep's public key
 
 It's based on Elliptic Curve Cryptography, so maybe you'll need to update
 your GnuPG version in order to use it.
 
-## The Actual Public Key ([file](pubkey.txt))
+### The Actual Public Key ([file](pubkey.txt))
 
 ```txt
-
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v2
 
@@ -18,15 +17,12 @@ gAULCQgHAgYVCAkKCwIEFgIDAQIeAQIXgAAKCRAkcXdPeE1Wwj70AP9ZO42wJZ/Q
 3QwCYFYRDdZRHw0=
 =Jx9i
 -----END PGP PUBLIC KEY BLOCK-----
-
 ```
 
-## Fingerprint ([file](fingerprint.txt))
+### Fingerprint ([file](fingerprint.txt))
 
 ```txt
-
 C8EE F408 FDC2 A869 7C9F  3B42 2471 774F 784D 56C2
-
 ```
 
 > Rodrigo González López (SametSisartenep)
