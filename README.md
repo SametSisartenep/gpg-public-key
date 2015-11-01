@@ -11,13 +11,13 @@ I cloned the GnuPG's libgcrypt repo from `git://git.gnupg.org/libgcrypt.git`
 and installed it manually to get Ed25519 working from master branch (v1.7.x).
 You'll need libgpg-error (v1.20) installed in your system to get it working
 too.
-You can download it from [here](ftp://ftp.gnupg.org/gcrypt/libgpg-error/).
+You can download it from [ftp://ftp.gnupg.org/gcrypt/libgpg-error](http://ftp.gnupg.org/gcrypt/libgpg-error/).
 
 Reference: [Creating newer ECC keys for
 GnuPG](http://www.gniibe.org/memo/software/gpg/keygen-25519.html)
 
 ### PGP Public Key
-([file](https://raw.githubusercontent.com/SametSisartenep/gpg-public-key/7BAD7C59.asc))
+([file](https://raw.githubusercontent.com/SametSisartenep/gpg-public-key/master/7BAD7C59.asc))
 
 ```txt
 -----BEGIN PGP PUBLIC KEY BLOCK-----
