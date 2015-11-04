@@ -16,7 +16,10 @@ You can download it from [ftp://ftp.gnupg.org/gcrypt/libgpg-error](http://ftp.gn
 Reference: [Creating newer ECC keys for
 GnuPG](http://www.gniibe.org/memo/software/gpg/keygen-25519.html)
 
-### PGP Public Key
+> **Note**: If your GnuPG version does not support ECC nor Ed25519 you can
+> use my RSA key, that I uploaded to [pgp.mit.edu](https://pgp.mit.edu).
+
+### PGP Public Key (ECC)
 ([file](https://raw.githubusercontent.com/SametSisartenep/gpg-public-key/master/7BAD7C59.asc))
 
 ```txt
@@ -35,10 +38,21 @@ vZzv7e7lil/2FbupE4IULFCdeAubDmtSBlyIozEJ
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-### PGP Fingerprint
+### PGP Fingerprint (ECC)
 
 ```txt
 C597 23E7 A766 EB85 9D72  6F49 1EA3 AEC5 7BAD 7C59
+```
+
+### PGP Public key (RSA)
+([file](https://raw.githubusercontent.com/SametSisartenep/gpg-public-key/master/447E41FE.asc))
+
+`~$ gpg --keyserver pgp.mit.edu --recv-keys 447E41FE`
+
+### PGP Fingerprint (RSA)
+
+```txt
+3F3A 1A92 1F93 E3CF EA60  BD51 1E80 B0BF 447E 41FE
 ```
 
 > Rodrigo González López (SametSisartenep)
