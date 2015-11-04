@@ -50,8 +50,13 @@ You can download it from <a href="http://ftp.gnupg.org/gcrypt/libgpg-error/">ftp
 <p>Reference: <a href="http://www.gniibe.org/memo/software/gpg/keygen-25519.html">Creating newer ECC keys for
 GnuPG</a></p>
 
+<blockquote>
+<p><strong>Note</strong>: If your GnuPG version does not support ECC nor Ed25519 you can
+use my RSA key, that I uploaded to <a href="https://pgp.mit.edu">pgp.mit.edu</a>.</p>
+</blockquote>
+
 <h3>
-<a id="pgp-public-key" class="anchor" href="#pgp-public-key" aria-hidden="true"><span class="octicon octicon-link"></span></a>PGP Public Key</h3>
+<a id="pgp-public-key-ecc" class="anchor" href="#pgp-public-key-ecc" aria-hidden="true"><span class="octicon octicon-link"></span></a>PGP Public Key (ECC)</h3>
 
 <p>(<a href="https://raw.githubusercontent.com/SametSisartenep/gpg-public-key/master/7BAD7C59.asc">file</a>)</p>
 
@@ -71,9 +76,22 @@ vZzv7e7lil/2FbupE4IULFCdeAubDmtSBlyIozEJ
 </code></pre>
 
 <h3>
-<a id="pgp-fingerprint" class="anchor" href="#pgp-fingerprint" aria-hidden="true"><span class="octicon octicon-link"></span></a>PGP Fingerprint</h3>
+<a id="pgp-fingerprint-ecc" class="anchor" href="#pgp-fingerprint-ecc" aria-hidden="true"><span class="octicon octicon-link"></span></a>PGP Fingerprint (ECC)</h3>
 
 <pre lang="txt"><code>C597 23E7 A766 EB85 9D72  6F49 1EA3 AEC5 7BAD 7C59
+</code></pre>
+
+<h3>
+<a id="pgp-public-key-rsa" class="anchor" href="#pgp-public-key-rsa" aria-hidden="true"><span class="octicon octicon-link"></span></a>PGP Public key (RSA)</h3>
+
+<p>(<a href="https://raw.githubusercontent.com/SametSisartenep/gpg-public-key/master/447E41FE.asc">file</a>)</p>
+
+<p><code>~$ gpg --keyserver pgp.mit.edu --recv-keys 447E41FE</code></p>
+
+<h3>
+<a id="pgp-fingerprint-rsa" class="anchor" href="#pgp-fingerprint-rsa" aria-hidden="true"><span class="octicon octicon-link"></span></a>PGP Fingerprint (RSA)</h3>
+
+<pre lang="txt"><code>3F3A 1A92 1F93 E3CF EA60  BD51 1E80 B0BF 447E 41FE
 </code></pre>
 
 <blockquote>
